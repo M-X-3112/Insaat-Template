@@ -6,8 +6,9 @@
     text-decoration: none;
 }
 body {
+    max-width: 100%;
     min-height: 100vh;
-}
+  }
 .top {
     height: 50px;
     background-color: black;
@@ -33,7 +34,6 @@ header {
 }
 .menuslide {
     width: 100%;
-    max-width: 425px;
     background-color: white;
     position: absolute;
     top: -600%;
@@ -401,6 +401,7 @@ footer {
         background: none;
     }
     .navbar {
+        width: 100%;
         justify-content: center;
     }
     .navbar #logo {
@@ -413,7 +414,7 @@ footer {
         display: none;
     }
     .menuslide ul {
-        width: 120%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         list-style-type: none;
